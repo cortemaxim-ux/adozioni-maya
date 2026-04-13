@@ -1,0 +1,66 @@
+{
+  "disponibili": [
+    {
+      "id": "luna",
+      "nome": "Luna",
+      "stato": "disponibile",
+      "sesso": "Femmina",
+      "eta": "2 anni",
+      "mantello": "Tricolore",
+      "pedigree": true,
+      "tags": ["Socievole", "Bambini ok", "Attiva", "Addestrata"],
+      "descrizione": "Luna e affettuosa e intelligente. Ama i giochi di intelligenza e si adatta sia alla vita in campagna che in citta con passeggiate adeguate. Non ha problemi con bambini o altri cani.",
+      "foto": "foto/cani/luna.png",
+      "genitori_visibili": true,
+      "wa_testo": "Ciao! Sono interessato ad adottare Luna. Posso venire a visitare la Pensione Maya?"
+    },
+    {
+      "id": "argo",
+      "nome": "Argo",
+      "stato": "disponibile",
+      "sesso": "Maschio",
+      "eta": "3 anni",
+      "mantello": "Bianco e nero",
+      "pedigree": true,
+      "tags": ["Calmo", "Fedele", "Altri cani ok", "Addestrato"],
+      "descrizione": "Argo e equilibrato e affidabile. Ideale per famiglie che vogliono un cane presente ma non frenetico. Convive bene con altri cani.",
+      "foto": "foto/cani/argo.png",
+      "genitori_visibili": false,
+      "wa_testo": "Ciao! Sono interessato ad adottare Argo. Posso venire a visitare la Pensione Maya?"
+    },
+    {
+      "id": "stella",
+      "nome": "Stella",
+      "stato": "disponibile",
+      "sesso": "Femmina",
+      "eta": "1.5 anni",
+      "mantello": "Marrone e bianco",
+      "pedigree": true,
+      "tags": ["Vivace", "Intelligente", "Agility", "Occhi chiari"],
+      "descrizione": "Stella e brillante e impara velocissima. Perfetta per chi ha uno stile di vita attivo o vuole fare sport cinofilo. Occhi chiari straordinari.",
+      "foto": "foto/cani/stella.png",
+      "genitori_visibili": true,
+      "wa_testo": "Ciao! Sono interessato ad adottare Stella. Posso venire a visitare la Pensione Maya?"
+    }
+  ],
+  "adottati": [
+    {
+      "id": "rex",
+      "nome": "Rex",
+      "anno_adozione": "2023",
+      "citta": "Milano",
+      "storia": "Eravamo scettici ma qui tutto e stato semplice. In tre giorni Rex era gia a casa nostra. E il nostro migliore amico.",
+      "famiglia": "Famiglia Rossi",
+      "foto": "foto/adottati/rex.png"
+    },
+    {
+      "id": "nala",
+      "nome": "Nala",
+      "anno_adozione": "2024",
+      "citta": "Roma",
+      "storia": "I comportamentalisti della Pensione Maya ci hanno aiutato nel primo mese. Servizio eccezionale.",
+      "famiglia": "Famiglia Bianchi",
+      "foto": "foto/adottati/nala.png"
+    }
+  ]
+}

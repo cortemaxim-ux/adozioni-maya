@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Come Adottare | Pensione Maya</title>
+<meta name="description" content="Come adottare un Border Collie con pedigree dalla Pensione Maya. Processo semplice, contributo 270 euro tutto incluso, vantaggi socio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Border Collie Cerca Casa <span>Pensione Maya</span></a>
+  <ul class="nav-links" id="mainNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cani.html">I Nostri Cani</a></li>
+    <li><a href="adotta.html">Come Adottare</a></li>
+    <li><a href="index.html#contatti">Contatti</a></li>
+    <li><a class="nav-cta" href="adotta.html">Adotta Ora</a></li>
+  </ul>
+  <button id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+</nav>
+
+<div style="height:68px"></div>
+
+<!-- HEADER -->
+<section style="background:linear-gradient(135deg,var(--navy),var(--blue));text-align:center;padding:80px 5%;">
+  <div class="sec-label" style="color:var(--sky);">Il Processo</div>
+  <h2 style="color:white;">Adottare e semplice.<br>Davvero.</h2>
+  <p style="color:rgba(255,255,255,0.7);max-width:560px;margin:0 auto;line-height:1.7;">Niente questionari invasivi, niente attese di mesi, niente visite domiciliari non richieste.</p>
+</section>
+
+<!-- PASSI + DISPONIBILI -->
+<section style="background:var(--off);">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
+
+    <!-- PASSI -->
+    <div>
+      <div class="sec-label">I Passi</div>
+      <h2>Come si fa, passo per passo</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Contattaci</h4>
+            <p>Scrivici su WhatsApp o per email. Dicci quale cane ti ha colpito. Risponderemo entro poche ore.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Visita la Pensione Maya</h4>
+            <p>Vieni ad Alessandria. Conosci la struttura certificata, i professionisti e il cane. Porta la famiglia, porta i bambini.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Colloquio con i nostri esperti</h4>
+            <p>Un esperto comportamentale ti parla del carattere del cane e di cosa si aspetta dalla nuova famiglia.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>Il cane viene a casa tua</h4>
+            <p>Firmiamo il modulo di passaggio e il Border Collie e tuo. Pedigree, vaccini, microchip gia intestato.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <h4>Supporto post-adozione</h4>
+            <p>Nei primi mesi puoi contattarci per qualsiasi dubbio. Non per essere controllato, ma per essere supportato.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DISPONIBILI -->
+    <div>
+      <div class="sec-label">Disponibili ora</div>
+      <h2>Chi cerca casa</h2>
+      <div id="disponibiliList" style="display:flex;flex-direction:column;gap:1rem;margin-top:1.5rem;">
+        <p style="color:var(--gray);">Caricamento cani...</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- COSA INCLUDE -->
+<section>
+  <div class="sec-label">Cosa Include l'Adozione</div>
+  <h2>Tutto quello che ti serve.<br>Nessuna sorpresa.</h2>
+  <p class="sec-intro">Contributo unico di <strong style="color:var(--navy);">&euro; 270</strong> a copertura delle spese &mdash; vaccini, pedigree, microchip, affiancamento e tesseramento socio.</p>
+
+  <div class="cards-grid" style="margin-bottom:2rem;">
+    <div class="card">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2456a4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+      <h3>Pedigree Certificato</h3>
+      <p>Iscrizione al libro genealogico ufficiale ENCI. Per alcuni soggetti possibilita di conoscere entrambi i genitori.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2456a4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
+      <h3>Vaccini &amp; Microchip</h3>
+      <p>Vaccinato secondo il protocollo veterinario. Microchip gia intestato a tuo nome, libretto sanitario incluso.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2456a4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+      <h3>Scheda Comportamentale</h3>
+      <p>Carattere reale, abitudini, relazione con bambini e altri cani, livello di addestramento. Nessuna sorpresa.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2456a4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+      <h3>Affiancamento Iniziale</h3>
+      <p>I nostri esperti ti accompagnano nella prima fase di convivenza con consulenze comportamentali incluse.</p>
+    </div>
+  </div>
+
+  <!-- VANTAGGI SOCIO -->
+  <div style="background:linear-gradient(135deg,var(--navy),var(--blue));border-radius:14px;padding:2.5rem;color:white;">
+    <div class="sec-label" style="color:var(--sky);">Esclusivo per chi adotta</div>
+    <h3 style="font-family:var(--font-titoli);font-size:1.6rem;color:white;margin-bottom:0.8rem;">Diventi Socio Pensione Maya</h3>
+    <p style="color:rgba(255,255,255,0.75);line-height:1.7;margin-bottom:1.5rem;">Con il tesseramento incluso, entri nella nostra comunita e accedi a vantaggi riservati:</p>
+    <div class="socio-grid">
+      <div class="socio-item">
+        <div style="margin-bottom:0.6rem;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg></div>
+        <strong>Pensione per le ferie</strong>
+        <span>Il tuo Border Collie soggiorna da noi quando sei in vacanza. La struttura che gia conosce.</span>
+      </div>
+      <div class="socio-item">
+        <div style="margin-bottom:0.6rem;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <strong>Consulenze priority</strong>
+        <span>Accesso prioritario ai nostri esperti comportamentali per qualsiasi dubbio nel tempo.</span>
+      </div>
+      <div class="socio-item">
+        <div style="margin-bottom:0.6rem;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <strong>Comunita Border Collie</strong>
+        <span>Rete di proprietari seguiti dagli stessi professionisti. Eventi, incontri, consigli.</span>
+      </div>
+    </div>
+    <div class="contributo-box">
+      <p>&euro; 270 &mdash; contributo unico, tutto incluso</p>
+      <span>Pedigree, vaccini, microchip, libretto, affiancamento, tesseramento socio.</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINALE -->
+<section style="background:var(--navy);text-align:center;">
+  <div class="sec-label" style="color:var(--sky);">Inizia Ora</div>
+  <h2 style="color:white;margin-bottom:1rem;">Pronto a conoscere il tuo Border Collie?</h2>
+  <p style="color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 2rem;line-height:1.7;">Scrivici su WhatsApp o mandaci una mail. Organizziamo la tua visita alla Pensione Maya di Alessandria.</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="https://wa.me/393519258553?text=Ciao!%20Vorrei%20venire%20a%20visitare%20la%20Pensione%20Maya%20per%20adottare%20un%20Border%20Collie." target="_blank" class="btn-primary">WhatsApp: +39 351 925 8553</a>
+    <a href="mailto:pensinemaya@gmail.com" class="btn-outline">pensinemaya@gmail.com</a>
+  </div>
+</section>
+
+<!-- MODAL CANE -->
+<div id="dogModal">
+  <div class="modal-inner">
+    <button class="modal-close" onclick="closeDog()">&#10005;</button>
+    <div id="dogModalContent"></div>
+  </div>
+</div>
+
+<!-- WHATSAPP FLOAT -->
+<a class="wa-float" href="https://wa.me/393519258553?text=Ciao!%20Vorrei%20adottare%20un%20Border%20Collie%20dalla%20Pensione%20Maya." target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<footer>
+  <div class="f-logo">Border Collie Cerca Casa | Pensione Maya</div>
+  <p>&copy; 2025 Pensione Maya &middot; Via Duomo 78/A, Alessandria &middot; pensinemaya@gmail.com</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
