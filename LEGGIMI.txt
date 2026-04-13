@@ -1,1 +1,113 @@
-Carica qui le foto degli adottati (es. rex.png, nala.png)
+=====================================================
+PENSIONE MAYA - GUIDA RAPIDA AGGIORNAMENTI
+=====================================================
+
+STRUTTURA DELLA CARTELLA:
+--------------------------
+pensione-maya/
+├── index.html          Home page (non toccare il codice)
+├── cani.html           Pagina galleria cani
+├── adotta.html         Come adottare
+├── cani.json           ← QUI aggiorni i cani (solo questo!)
+├── css/
+│   └── stile.css       ← QUI cambi colori, font, sfondi
+├── js/
+│   └── app.js          ← QUI cambi il numero WhatsApp
+└── foto/
+    ├── cani/           ← QUI metti le foto dei cani
+    ├── struttura/      ASL, zoofila, struttura
+    └── adottati/       ← QUI metti le foto degli adottati
+
+
+COME AGGIUNGERE UN CANE DISPONIBILE:
+-------------------------------------
+1. Apri cani.json
+2. Copia questo blocco e incollalo dentro "disponibili": [ ... ]
+
+{
+  "id": "nomeunicoperlid",
+  "nome": "Nome del Cane",
+  "stato": "disponibile",
+  "sesso": "Femmina",
+  "eta": "2 anni",
+  "mantello": "Tricolore",
+  "pedigree": true,
+  "tags": ["Socievole", "Bambini ok", "Attiva"],
+  "descrizione": "Descrizione del cane...",
+  "foto": "foto/cani/nomefoto.png",
+  "genitori_visibili": true,
+  "wa_testo": "Ciao! Sono interessato ad adottare NomeCane."
+},
+
+3. Carica la foto nella cartella foto/cani/
+4. Carica tutto su GitHub → sito aggiornato in 30 secondi
+
+
+COME SPOSTARE UN CANE DA DISPONIBILE AD ADOTTATO:
+--------------------------------------------------
+1. Apri cani.json
+2. Copia il blocco del cane da "disponibili"
+3. Incollalo dentro "adottati": [ ... ]
+4. Modifica il blocco cosi:
+
+{
+  "id": "nomecane",
+  "nome": "Nome",
+  "anno_adozione": "2025",
+  "citta": "Milano",
+  "storia": "La storia di questa famiglia...",
+  "famiglia": "Famiglia Rossi",
+  "foto": "foto/adottati/nomefoto.png"
+}
+
+5. Elimina il blocco da "disponibili"
+
+
+COME CAMBIARE I COLORI:
+------------------------
+Apri css/stile.css
+Le prime righe hanno le variabili:
+
+--navy:   #0a1628   (blu scuro principale)
+--accent: #e8a020   (oro/arancio dei pulsanti)
+--sky:    #4a90d9   (azzurro dettagli)
+
+Cambia il codice colore (es. #e8a020) con il colore che vuoi.
+Sito Google "color picker" per trovare il codice del colore.
+
+
+COME CAMBIARE IL FONT:
+-----------------------
+Apri css/stile.css
+Cerca --font-titoli e --font-testo
+Cambia il nome del font.
+Sito Google "Google Fonts" per trovare font gratuiti.
+
+
+COME AGGIUNGERE UNA FOTO SFONDO NELL'HERO:
+-------------------------------------------
+1. Carica la foto in foto/struttura/sfondo.jpg
+2. Apri index.html
+3. Cerca il commento "PER AGGIUNGERE UNA FOTO SFONDO"
+4. Segui le istruzioni li dentro
+5. Apri css/stile.css
+6. Cambia la riga --sfondo-hero con:
+   url('../foto/struttura/sfondo.jpg') center/cover
+
+
+COME CAMBIARE IL NUMERO WHATSAPP:
+-----------------------------------
+Apri js/app.js
+Prima riga: var WA_NUMBER = "393519258553";
+Cambia il numero (senza + e senza spazi)
+
+
+COSA CHIEDERE A CLAUDE:
+------------------------
+- Aggiungere un nuovo widget (es. calendario, calcolatrice)
+- Cambiare completamente il design
+- Aggiungere una nuova pagina
+- Aggiungere funzioni nuove (es. form di pre-adozione)
+- Qualsiasi cosa che richiede scrivere codice
+
+=====================================================
